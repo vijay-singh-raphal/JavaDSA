@@ -4,7 +4,7 @@ public class Array2 {
         int first = 0;
         int last = arr.length-1;
         int temp;
-        while(first<=last){
+        while(first<last){
             temp = arr[first];
             arr[first] = arr[last];
             arr[last] = temp;
